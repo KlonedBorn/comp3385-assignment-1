@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-use App\Http\Controller\AboutController;
+use App\Http\Controllers\AboutController;
 
 Route::get('/', function () {
     return view('welcome');
